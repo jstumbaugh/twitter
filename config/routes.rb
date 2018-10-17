@@ -5,7 +5,7 @@ Rails.application.routes.draw do
       post "user/token" => "user_token#create"
       get "users/current" => "users#current"
 
-      resources :statuses
+      resources :tweets
     end
   end
 

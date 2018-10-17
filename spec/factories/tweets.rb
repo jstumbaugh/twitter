@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :status do
+  factory :tweet do
     description { Faker::HarryPotter.quote }
   end
 end
