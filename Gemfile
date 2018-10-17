@@ -17,7 +17,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'faker'
 
+# For JWT Authentication
 gem 'knock'
+
+# Allow the frontend to make API calls
+gem 'rack-cors'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
